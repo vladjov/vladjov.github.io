@@ -1345,3 +1345,10 @@ header.showWelcomeScreenHeader {
 .welcome h2 span:first-of-type {
     font-weight: 300;
 }
+
+@media screen and (min-width: 480px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
