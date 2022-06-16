@@ -235,9 +235,7 @@ temperatureToggle.addEventListener("click", () => {
     unitToggle(checkedUnitValue);
 });
 
-// let generateURLbyGeolocation = (lat, lon) => `${APIURLBASE}data/2.5/onecall?lat=${lat}&lon=${lon}&units=${defaultUnit}&appid=${APIKEY}`;
-
-let generateURLbyGeolocation = (lat, lon) => `${APIURLBASE}data/3.0/onecall?lat=${lat}&lon=${lon}&appid=${APIKEY}`;
+let generateURLbyGeolocation = (lat, lon) => `${APIURLBASE}data/2.5/onecall?lat=${lat}&lon=${lon}&units=${defaultUnit}&appid=${APIKEY}`;
 let generateURLbyReverseGeocoding = (lat, lon) => `${APIURLBASE}geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=5&appid=${APIKEY}`;
 
 
