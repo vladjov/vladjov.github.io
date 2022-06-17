@@ -1407,7 +1407,7 @@ header.showWelcomeScreenHeader {
         margin-right: 0.5em;
     }
 
-    .currentTemperature {
+    .currentList .currentTemperature {
         font-size: 10em;
     }
 
@@ -1439,7 +1439,7 @@ header.showWelcomeScreenHeader {
     }
 
     .hourlyList li {
-        font-size: 3em;
+        font-size: xx-large;
     }
 
     .toggleWrapper label {
