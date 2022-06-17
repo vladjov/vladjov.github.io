@@ -242,6 +242,8 @@ nav {
     background: none;
     position: absolute;
     margin-left: 0.5em;
+    width: 32px;
+    height: 32px;
 }
 
 .nightMode .cityInputContainer svg{
@@ -1394,6 +1396,13 @@ header.showWelcomeScreenHeader {
     }
 
     #geolocationBtn {
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #geolocationBtn svg{
         width: 32px;
         height: 32px;
     }
