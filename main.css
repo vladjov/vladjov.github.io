@@ -266,7 +266,7 @@ nav {
 #cityMatchList{
     box-sizing: border-box;
     max-height: 100%;
-    padding: 0.2em 1.5em;
+    /*padding: 0.2em 1.5em;*/
 }
 
 .cityMatched {
@@ -1289,7 +1289,7 @@ footer .footerList .indicator {
 
 .showWelcomeScreenLogo {
     background: var(--background-light);
-    height: 65px;
+    height: 90px;
 }
 .showWelcomeScreenLogo h3 {
     display: none;
@@ -1302,7 +1302,7 @@ header.showWelcomeScreenHeader {
 .showWelcomeScreenHeader nav{
     height: max-content;
     display: block;
-    transform: translateY(-65px);
+    transform: translateY(-170px);
 }
 .showWelcomeScreenHeader nav .citySearchContainer {
     justify-content: center;
@@ -1333,16 +1333,16 @@ header.showWelcomeScreenHeader {
     background: var(--background-light);
     box-sizing: border-box;
     padding: 3em;
-    transform: translateY(20px);
+    transform: translateY(30px);
 }
 
 .welcome p {
-    font-size: large;
+    font-size: 1.5em;
     transform: translateY(40px);
     text-align: center;
 }
 .welcome h2 {
-    font-size: xx-large;
+    font-size: 2em;
     display: flex;
     justify-content: center;
 }
