@@ -253,11 +253,12 @@ nav {
     padding: 0 0.5em;
     width: 100%;
     position: absolute;
-    top: 120px;
+    top: 270px;
     z-index: 1;
     margin: 0;
     font-weight: 600;
-    max-height: 210px;
+    max-height: calc(100vh - 450px);
+    background-color: var(--background-light);
     overflow: auto;
     scrollbar-width: thin;
 }
@@ -297,7 +298,7 @@ nav {
 }
 
 .nightMode #cityMatchListContainer, .nightMode #cityMatchList {
-    background: none;
+    background: #2b2d2d;
 } 
 
 .cityMatched:hover {
@@ -1371,6 +1372,11 @@ header.showWelcomeScreenHeader {
 
     .notification {
         height: 100px;
+    }
+
+    #cityMatchListContainer {
+        top: 270px;
+        max-height: calc(100vh - 450px);
     }
 
 
