@@ -176,7 +176,7 @@ nav {
 }
 
 .introLogoSpan.introFade {
-    bottom: 150px;
+    font-size: 2.5em;
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
@@ -1417,11 +1417,11 @@ header.showWelcomeScreenHeader {
         font-size: 15em;
     }
 
-    .dailyList > li .dailyDetails li{
+    .dailyDetails li {
         font-size: 1em;
     }
 
-    .dailyDetails li {
+    .dailyList > li .dailyDetails li{
         font-size: 1em;
     }
 
