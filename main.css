@@ -1098,6 +1098,7 @@ button {
 .toggleWrapper label {
     display: flex;
     padding: 1.5em 1em;
+    align-items: center;
 }
 
 .toggleWrapper label span {
@@ -1202,7 +1203,7 @@ footer .footerList .indicator {
 
 .notification {
     width: 94%;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1238,11 +1239,11 @@ footer .footerList .indicator {
 
 @keyframes slideDown {
     from { top: 0px; }
-    to   { top: 120px; }
+    to   { top: 270px; }
 }
   
 @keyframes slideUp {
-    from { top: 120px; }
+    from { top: 270px; }
     to   { top: 0px; }
 }
 
@@ -1351,20 +1352,27 @@ header.showWelcomeScreenHeader {
 
 @media screen and (min-width: 480px) {
     body {
-        width: 90%;
-        height: 86%;
-        margin: 5% auto;
+        padding:  0 5%;
         position: relative;
     }
 
     .container {
         width: 100%;
-        height: 100%;
+        height: 100vh;
     }
 
     header, footer {
         font-size: 2em;
     }
+
+    .logo {
+        font-size: 1.3em;
+    }
+
+    .notification {
+        height: 100px;
+    }
+
 
     .currentCityAndCountry, .currentTemperature {
         font-size: 1em;
@@ -1385,7 +1393,8 @@ header.showWelcomeScreenHeader {
     }
 
     .weatherContainerWrapper {
-        margin-top: 12em;
+        padding-top: 17em;
+        padding-bottom: 12em;
     }
 
     .currentList li{
@@ -1406,7 +1415,9 @@ header.showWelcomeScreenHeader {
         font-size: 1em;
     }
 
-
+    .dailyDetails li {
+        font-size: 1em;
+    }
 
     .dailyDetails svg {
         width: 3em;
@@ -1425,5 +1436,17 @@ header.showWelcomeScreenHeader {
     }
     .dailyTemperatureAndFeel {
         font-size: 3em;
+    }
+
+    .hourlyList li {
+        font-size: 3em;
+    }
+
+    .toggleWrapper label {
+        font-size: 2em;
+    }
+
+    .frequencyWrapper label {
+        padding: 2.5em;
     }
 }
