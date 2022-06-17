@@ -1408,10 +1408,10 @@ header.showWelcomeScreenHeader {
     }
 
     .currentList .currentTemperature {
-        font-size: 10em;
+        font-size: 15em;
     }
 
-    .dailyList > li .dailyDetails  {
+    .dailyList > li .dailyDetails li{
         font-size: 1em;
     }
 
@@ -1440,6 +1440,15 @@ header.showWelcomeScreenHeader {
 
     .hourlyList li {
         font-size: xx-large;
+    }
+
+    #favorites li {
+        font-size: 2em;
+    }
+
+    .deleteIcon svg {
+        width: 1.5em;
+        height: 1.5em;
     }
 
     .toggleWrapper label {
