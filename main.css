@@ -71,7 +71,7 @@ li {
 header, footer {
     display: grid;
     position: fixed;
-    left: 5%;
+    left: 6%;
     right: 5%;
     background-color: var(--background-light);
     font-weight: 300;
@@ -1473,5 +1473,30 @@ header.showWelcomeScreenHeader {
 
     .frequencyWrapper label {
         padding: 2.5em;
+    }
+
+
+    .buttonTooltip {
+        --width: 4em;
+        --height: 4em;
+        left: 80%;
+    }
+
+    .buttonTooltip .btn::before {
+        width: 4px;
+        height: 40px;
+    }
+    .buttonTooltip .btn::after {
+        width: 40px;
+        height: 4px;
+    }
+
+    .buttonTooltip input:checked ~ .tooltip {
+        width: 190px;
+        height: 85px;
+    }
+
+    .buttonTooltip .tooltip > svg {
+        height: 40px;
     }
 }
