@@ -158,6 +158,7 @@ nav {
 
 .introLogoSpan {
     color: white;
+    font-size: 2.5em;
     position: relative;
     display: inline-block;
     bottom: -70px;
@@ -176,7 +177,6 @@ nav {
 }
 
 .introLogoSpan.introFade {
-    font-size: 2.5em;
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
@@ -1304,7 +1304,8 @@ header.showWelcomeScreenHeader {
 .showWelcomeScreenHeader nav{
     height: max-content;
     display: block;
-    transform: translateY(-170px);
+    position: absolute;
+    top: 170px;
 }
 .showWelcomeScreenHeader nav .citySearchContainer {
     justify-content: center;
